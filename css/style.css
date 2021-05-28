@@ -90,7 +90,7 @@ nav li a {
 }
 
 .second-section {
-    margin: 30px 0;
+    margin: 30px 0 50px 0;
 }
 
 .second-section .leadership-header {
@@ -118,7 +118,6 @@ nav li a {
 
 .columns .col.large {
     width: 60%;
-    height: 20px; /*togliere*/
     padding: 0 30px;
 }
 
@@ -183,4 +182,16 @@ nav li a {
     padding: 20px 0;
     color: black;
     font-weight: lighter;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+
+.fa-heart {
+    color: red;
 }
