@@ -121,64 +121,33 @@ nav li a {
     padding: 0 30px;
 }
 
-.img-article-left {
+.columns .img-article {
     height: 200px;
     border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.img-article.left {
     background-image: url('../img/img-1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
 }
 
-.col .img-article-left .layer {
-    height: 200px;
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-.col .text-article-left h3{
-    padding: 20px 0;
-    color: black;
-    font-weight: lighter;
-}
-
-.img-article-center {
-    height: 200px;
-    border-radius: 15px;
+.img-article.center {
     background-image: url('../img/banner-2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
 }
 
-.col .img-article-center .layer {
-    height: 200px;
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-.col .text-article-center h3{
-    padding: 20px 0;
-    color: black;
-    font-weight: lighter;
-}
-
-.img-article-right {
-    height: 200px;
-    border-radius: 15px;
+.img-article.right {
     background-image: url('../img/img-3.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
 }
 
-.col .img-article-right .layer {
+.columns .layer {
     height: 200px;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.col .text-article-right h3{
+.columns h3{
     padding: 20px 0;
     color: black;
     font-weight: lighter;
