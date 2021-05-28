@@ -27,7 +27,7 @@ body {
 
 /* header */
 
-header {
+.main-header {
     margin-bottom: 30px;
 }
 
@@ -57,4 +57,39 @@ nav li a {
     text-transform: uppercase;
     color: rgb(191, 191, 191);
     font-size: 12px;
+}
+
+/* main */
+
+/* main {
+    height: 800px;
+    background-color: red;
+} */
+
+.first-section {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 30px 0;
+}
+
+.first-section .bg {
+    height: 400px;
+    border-radius: 15px;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.first-section .bg .layer {
+    height: 400px;
+    padding-left: 40px;
+    padding-top: 230px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.layer h2 {
+    font-size: 35px;
+    font-weight: lighter;
 }
